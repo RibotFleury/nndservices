@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicons -->
+    <link href="./assets/img/log.png" rel="icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center"
+      >
+        <a href="index.html" class="me-auto">
+          <img src="assets/img/logo3.png" alt="" id="logo" />
+          <!--   <h1 class="sitename">logo</h1> -->
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html" id="nav-home">Home</a></li>
+            <li><a href="services.html" id="nav-services">Services</a></li>
+            <li><a href="about.html" id="nav-about">About</a></li>
+            <li><a href="#" class="active" id="nav-contact">Contact</a></li>
+            <li><a href="donate.html" id="nav-donate">Donate</a></li>
+            <li>
+              <select id="language-select" onchange="changeLanguage()">
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+              </select>
+            </li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <!-- Section Title -->
+      <div
+        class="container section-title"
+        data-aos="fade-up"
+        id="contact-title"
+      >
+        <h2 id="contact-title-text">Contact</h2>
+      </div>
+      <!-- End Section Title -->
+      <div id="contact-bg">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-5">
+              <div class="info-wrap">
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <i class="bi bi-geo-alt flex-shrink-0"></i>
+                  <div>
+                    <h3 id="address-title">Address</h3>
+                    <p id="address-text">
+                      24 Abberfield Crescent NE, Calgary Alberta - T2A6N6
+                    </p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <i class="bi bi-telephone flex-shrink-0"></i>
+                  <div>
+                    <h3 id="call-title">Call Us</h3>
+                    <p id="call-text">+1 368 889 5240</p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <i class="bi bi-envelope flex-shrink-0"></i>
+                  <div>
+                    <h3 id="email-title">Email</h3>
+                    <p id="email-text">info@nndservices.com</p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2507.879081417647!2d-113.93439642247617!3d51.055320483544946!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53717b5c8f64c17f%3A0x738dc85f61f2166d!2s24%20Abberfield%20Crescent%20NE%2C%20Calgary%2C%20AB%20T2A%206N6%2C%20Canada!5e0!3m2!1sfr!2scm!4v1727302141102!5m2!1sfr!2scm"
+                  style="border: 0; width: 100%; height: 270px"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+
+            <div class="col-lg-7">
+              <form
+                id="contact-form"
+                class="php-email-form"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <label for="name-field" class="pb-2" id="label-name">
+                      Name <span id="oblige">*</span
+                      ><span id="oblige">*</span></label
+                    >
+                    <input
+                      type="text"
+                      name="name"
+                      id="name-field"
+                      class="form-control"
+                      required=""
+                    />
+                    <span id="name-field-error" class="error-message"></span>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="email-field" class="pb-2" id="label-email">
+                      Email <span id="oblige">*</span
+                      ><span id="oblige">*</span></label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email-field"
+                      required=""
+                      required
+                    />
+                    <span id="email-field-error" class="error-message"></span>
+                  </div>
+
+                  <div class="col-md-12">
+                    <label for="subject-field" class="pb-2" id="label-subject"
+                      >Subject <span id="oblige">*</span
+                      ><span id="oblige">*</span></label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="subject"
+                      id="subject-field"
+                      required=""
+                    />
+                    <span id="subject-field-error" class="error-message"></span>
+                  </div>
+
+                  <div class="col-md-12">
+                    <label for="message-field" class="pb-2" id="label-message"
+                      >Message <span id="oblige">*</span
+                      ><span id="oblige">*</span></label
+                    >
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="10"
+                      id="message-field"
+                      required=""
+                    ></textarea>
+                    <span id="message-field-error" class="error-message"></span>
+                  </div>
+
+                  <div class="col-md-12 text-center">
+                    <button type="submit" id="submit-button">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- End Contact Form -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Contact Section -->
+
+    <footer id="footer" class="footer">
+      <div class="container footer-top">
+        <div class="row gy-3">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <h4 id="footer-title"><a href="index.html"> NND SERVICES </a></h4>
+            <div id="footer-address">
+              <p>24 Abberfield Crescent NE</p>
+              <p>Calgary Alberta- T2A6N6</p>
+              <p class="mt-3">
+                <strong>Phone:</strong> <span>+1 368 889 5240</span>
+              </p>
+              <p><strong>Email:</strong> <span>info@nndservices.com</span></p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-10 footer-links">
+            <h4 id="footer-services-title">Our Services</h4>
+            <ul id="footer-services-list">
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="sdeme.html" id="moving-service">MOVING SERVICE</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="slivraison.html" id="delivery-service"
+                  >DELIVERY SERVICE</a
+                >
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="sjunk.html" id="junk-removal">JUNK REMOVAL SERVICE</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-8 footer-links">
+            <h4 id="footer-follow-us-title">Follow Us</h4>
+            <div class="social-links d-flex" id="footer-social-links">
+              <a href="https://wa.me/13688895240"
+                ><i class="bi bi-whatsapp"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/profile.php?id=61557885560451&mibextid=ZbWKwL"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="https://www.linkedin.com/company/nnd-services/"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container copyright text-center mt-4">
+        <p>
+          © Copyright <strong class="px-1 sitename">NND SERVICES</strong>
+          <span id="footer-copyright">All Rights Reserved</span>
+        </p>
+        <div class="credits">
+          <span id="design">Designed by</span>
+          <span class="text-primary" id="ribo">EvolveD</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+    >
+      <i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/verifie_contact.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/contact.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.emailjs.com/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("vADD078lpCyD40FAR"); // Replace with your EmailJS User ID
+      })();
+    </script>
+    <script type="text/javascript">
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent form reload
+
+          // Send form data via EmailJS
+          emailjs.sendForm("service_7dd0e5x", "template_l55jwcq", this).then(
+            function () {
+              alert("Email sent successfully!");
+            },
+            function (error) {
+              alert("Failed to send email: " + JSON.stringify(error));
+            }
+          );
+        });
+    </script>
+  </body>
+</html>

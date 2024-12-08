@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>about</title>
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="./assets/img/log.png" rel="icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="me-auto">
+        <img src="./assets/img/logo3.png" alt="" id="logo">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" id="nav-home">Home</a></li>
+          <li><a href="services.html" id="nav-services">Services</a></li>
+          <li><a href="about.html" id="nav-about" class="active">About</a></li>
+          <li><a href="contact.html" id="nav-contact">Contact</a></li>
+          <li><a href="donate.html" id="nav-donate">Donate</a></li>
+          <li>
+            <select id="language-select" onchange="changeLanguage()">
+              <option value="en">English</option>
+              <option value="fr">Français</option>
+            </select>
+          </li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- About Section -->
+
+    <section id="services" class="services section light-background">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up" id="section-title">
+        <h2 id="about-title">About</h2>
+      </div><!-- End Section Title -->
+      <div id="bg-about">
+        <div class="container">
+          <div class="row gy-4">
+
+            <div class="col-xl-4 col-md-6 d-flex">
+              <div class="service-item position-relative">
+                <h4 id="story-title">Our Story</h4>
+                <p id="story-text">
+                  NND SERVICES was founded with a simple mission: to make life easier for our
+                  customers through reliable and efficient service. We understand the challenges of moving, delivering
+                  important
+                  items, and clearing out clutter, which is why we offer a range of solutions designed to meet your
+                  specific needs.
+                  Our team is committed to providing high-quality service, ensuring that every job is done right the
+                  first time.
+                </p>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-xl-4 col-md-6 d-flex">
+              <div class="service-item position-relative">
+                <h4 id="values-title">Our Values</h4>
+                <p id="values-text">
+                  At NND SERVICES, we believe in integrity, professionalism, and community. These values guide
+                  everything we do,
+                  from handling your possessions with care to ensuring a positive impact on the communities we serve. We
+                  take pride
+                  in being a company you can trust, where customer satisfaction is our top priority.
+                </p>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-xl-4 col-md-6 d-flex">
+              <div class="service-item position-relative">
+                <h4 id="services-title">Our Services</h4>
+                <p id="services-text">
+                  We offer a full suite of services, including moving, delivery, junk removal, and a unique donation
+                  program
+                  that helps connect people with those in need. Whether you are relocating, sending a package, or
+                  clearing out your home,
+                  we are here to help with a friendly and efficient approach.
+                </p>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-xl-6 col-md-6 d-flex">
+              <div class="service-item position-relative">
+                <h4 id="community-title">Our Commitment to the Community</h4>
+                <p id="community-text">
+                  Giving back is at the heart of what we do. Through our donation service, we help reduce waste by
+                  redistributing gently
+                  used items to families and organizations in need. This initiative not only supports those who could
+                  benefit from your
+                  donations but also contributes to a more sustainable and caring community.
+                </p>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-xl-6 col-md-6 d-flex">
+              <div class="service-item position-relative">
+                <h4 id="choose-us-title">Why Choose Us?</h4>
+                <p id="choose-us-text">
+                  Choosing NND SERVICES means choosing a partner who values your time, your belongings, and your trust.
+                  With a team of
+                  experienced professionals, a commitment to excellence, and a strong focus on customer care, we strive
+                  to exceed
+                  your expectations with every service.
+                </p>
+              </div>
+            </div><!-- End Service Item -->
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container footer-top">
+      <div class="row gy-3">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <h4 id="footer-title"><a href="index.html"> NND SERVICES </a></h4>
+          <div id="footer-address">
+            <p>24 Abberfield Crescent NE</p>
+            <p>Calgary Alberta- T2A6N6</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 368 889 5240</span></p>
+            <p><strong>Email:</strong> <span>info@nndservices.com</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-10 footer-links">
+          <h4 id="footer-services-title">Our Services</h4>
+          <ul id="footer-services-list">
+            <li><i class="bi bi-chevron-right"></i> <a href="sdeme.html" id="moving-service">MOVING SERVICE</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="slivraison.html" id="delivery-service">DELIVERY SERVICE</a>
+            </li>
+            <li><i class="bi bi-chevron-right"></i> <a href="sjunk.html" id="junk-removal">JUNK REMOVAL SERVICE</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-8 footer-links">
+          <h4 id="footer-follow-us-title">Follow Us</h4>
+          <div class="social-links d-flex" id="footer-social-links">
+            <a href="https://wa.me/13688895240"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61557885560451&mibextid=ZbWKwL"><i
+                class="bi bi-facebook"></i></a>
+            <a href="https://www.linkedin.com/company/nnd-services/"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© Copyright <strong class="px-1 sitename">NND SERVICES</strong> <span id="footer-copyright">All Rights
+          Reserved</span> </p>
+      <div class="credits">
+        <span id="design">Designed by</span> <span class="text-primary" id="ribo">EvolveD</span>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/about.js"></script>
+
+</body>
+
+</html>
